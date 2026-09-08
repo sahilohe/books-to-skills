@@ -4,8 +4,7 @@
 __pycache__/
 *.pyc
 .agents
-AGENTS.md
-.cursorignore
+
 *.pdf
 *.epub
 *.mobi

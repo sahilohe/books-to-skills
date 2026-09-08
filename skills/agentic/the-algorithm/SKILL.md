@@ -1,11 +1,11 @@
 ---
 name: the-algorithm
-description: Apply Elon's five-step Algorithm in mandatory order — less-dumb requirements, delete, simplify, accelerate, automate last — plus "best part is no part." Use when designing, simplifying, or automating a product, process, factory, or codebase.
+description: Run Elon's Algorithm in order on a product, process, factory, or codebase — less-dumb requirements, delete, simplify, accelerate, automate last. Use when designing, cutting, or automating.
 ---
 
 # The Algorithm
 
-From *The Book of Elon*. Use on **creating** (product, factory, software). Use `first-principles` to decide what is physically possible; use this to change the thing that exists. Order is mandatory.
+Source: *The Book of Elon*.
 
 ## Definitions
 
@@ -27,21 +27,28 @@ A five-step engineering process. Elon ran it backward on Tesla (automate → acc
 
 ## Procedure
 
+Run the five steps **on the human's artifact**. Return the requirement owners, the deletion list, and what not to automate yet.
+
 1. List every requirement. Owner name or **delete the requirement**.
 2. For each part/process/function: what happens if it is gone? Delete candidates. Expect to restore ~10%.
 3. Only then simplify what remains (combine, commonize, shorter path).
 4. Then cycle time. Then automation.
 5. Audit: are we optimizing, accelerating, or automating something that should not exist?
 
-## Example (creating / software)
+## Examples
 
-Team wants "an orchestration layer and a queue worker and a dashboard" before any user has completed a job.
+**Load when** the human asks to simplify, cut, or automate a product, process, or codebase. Order is mandatory.
 
-Step 1: who required a dashboard? If "the PM who left," it is not a requirement.
-Step 2: delete the queue. A cron + one table may be the whole process.
-Step 3: one script, not a platform.
-Step 4: if jobs take 20 minutes, attack that, not the YAML.
-Step 5: no Kubernetes until the script is the bottleneck.
+1. Human asks: we need orchestration, a queue, and a dashboard before anyone finishes a job.  
+   Return: (1) who owns the dashboard requirement — if a departed PM, delete it. (2) delete the queue; cron + one table. (3) one script. (4) if jobs take 20 minutes, that is the rate. (5) no k8s until the script is the bottleneck.
+
+2. Human asks: automate onboarding; we already have a 12-step wizard.  
+   Return: do **not** automate step 5. Question requirements, delete steps, then simplify. Automation last.
+
+3. Human asks: is this even possible at $X/kWh?  
+   **Wrong skill.** Load `first-principles`. Then Algorithm on what remains.
+
+**Do not load** to find the factory bottleneck if the issue is one starved queue (`factory-constraint` names *where*; this skill says *how* to cut).
 
 ## Limits
 

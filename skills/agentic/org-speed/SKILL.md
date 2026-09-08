@@ -1,11 +1,11 @@
 ---
 name: org-speed
-description: Design communication and incentives for shortest-path execution — skip chain of command, kill silos that show up as boxes-in-boxes in the product, skip-level to the problem. Use when a team, company, or process is slow, political, or shipping org-chart-shaped work.
+description: Redesign an org or process for shortest-path communication and kill silos that show up as boxes-in-boxes in the product. Use when unsticking a slow, political, or org-chart-shaped system.
 ---
 
 # Org speed
 
-From *The Book of Elon* (Designing the Organization). Use on **founding** and **creating**. Pair with `alignment` for incentive math and `the-algorithm` for the artifact itself.
+Source: *The Book of Elon*.
 
 ## Definitions
 
@@ -36,11 +36,20 @@ From *The Book of Elon* (Designing the Organization). Use on **founding** and **
 5. Incentives: what happens to someone who tries and fails vs someone who blocks?
 6. Meetings: delete or shorten. Urgency calendar, not standing theater.
 
-## Example (founding)
+## Examples
 
-Two squads, "platform" and "app," each with an API gateway "for isolation." Users wait on a ticket that ping-pongs.
+**Load when** the human's team is slow, tickets ping-pong, or the product looks like the org chart.
 
-That is chain of command. Shortest path: one engineer from each squad on a call with the failing request. The extra gateway is a box in a box — delete unless a named person owns the requirement (`the-algorithm` step 1). Skip-level: founder sits with the on-call, not the VP slide.
+1. Human asks: platform squad and app squad each have a gateway; users wait on tickets.  
+   Return: chain of command. Shortest path = both engineers on the failing request. Extra gateway = box in a box unless a named owner (`the-algorithm`). Founder sits with on-call.
+
+2. Human asks: our glossary has 80 acronyms; new hires nod in silence.  
+   Return: kill list. Keep only terms outsiders already know. Test: helps or hurts.
+
+3. Human asks: sales vs product OKRs conflict.  
+   **Wrong skill** for payoff math. Load `alignment`. Then fix the hops here.
+
+**Do not load** to delete a part in the CAD (`the-algorithm`) unless the part exists because two teams each needed an enclosure.
 
 ## Limits
 

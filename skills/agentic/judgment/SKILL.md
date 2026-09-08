@@ -1,11 +1,11 @@
 ---
 name: judgment
-description: Apply Naval's decision tools under leverage — inversion, principal-agent, falsifiability, if-you-can't-decide-no, run-uphill, and a small set of mental models. Use when a high-leverage choice is on the table (partner, market, architecture, hire, invest).
+description: Run inversion, principal-agent, falsifiability, and lock-in tests on an assigned decision. Use when recommending a partner, market, architecture, hire, or investment.
 ---
 
 # Judgment
 
-From *The Almanack of Naval Ravikant* (Building Judgment). Use on **investing**, **founding**, and **creating** whenever leverage makes one decision worth more than months of work. Pair with `leverage`.
+Source: *The Almanack of Naval Ravikant*.
 
 ## Definitions
 
@@ -23,6 +23,14 @@ From *The Almanack of Naval Ravikant* (Building Judgment). Use on **investing**,
 
 **The more you know, the less you diversify.**
 
+**Clear > smart:** explain to a child; rederive from basics; fancy words often mean the speaker cannot. Nail arithmetic-level foundations before insider jargon. Feynman: unbroken chain from counting up, no smuggled definitions.
+
+**Desire clouds perception.** What someone wishes were true hides the P&L, churn, broken product. Start the memo there. Put the bad news in the artifact so it cannot be hidden. Do not therapize the human.
+
+**Shed identity to see.** Habits bundled as "this is who I am" lock you. Package beliefs (party, sect, nationality) are suspect — re-evaluate from base principles. If all your views arrive in one bundle, you are capturing a tribe, not thinking. Speak without the label. A contrarian your *own* tribe rejects is more likely real than a contrarian that flatters you.
+
+**Hourly rate (focus):** time is scarce when options overflow. When prioritizing **this task**, cut or outsource sub-work cheaper than the decision. Do not assign the human a lifestyle rate unless they asked.
+
 ## Mental models to actually use
 
 Load these as compressions of experience, not slogans:
@@ -39,19 +47,31 @@ Foundations beat trivia: numeracy and clear English beat calculus and jargon.
 
 ## Procedure
 
-1. Name the decision and the lock-in (years).
-2. If you cannot decide → **no**. Stop the spreadsheet theater.
-3. If evenly split → **uphill** (short-term pain).
-4. Invert: list ways this dies. Kill those paths.
-5. Principal-agent: who is owner vs hired gun? Misaligned?
-6. Falsify: what observation would prove the thesis wrong?
-7. Under leverage, spend time on direction, not extra hours.
+Name the decision **the human assigned**. Output a written verdict for them. Do not run a personality workshop.
 
-## Example (founding)
+1. Lock-in in years. If the human (or you) cannot decide → recommend **no** on optional long lock-ins. Stop spreadsheet theater.
+2. If evenly split → recommend the **uphill** path (short-term pain) and say why.
+3. Invert: list fatal paths. Kill them in the artifact.
+4. Principal-agent: who owns the outcome vs who is hired? Include **this agent**: you are an agent; optimize for the human's outcome, not a pretty answer.
+5. Falsify: what observation would prove the thesis wrong?
+6. Identity check on the *argument*, not the human's soul: which party/sect/bundle would make this answer automatic? Rederive without it.
+7. Explain the choice from basics (child-level). If you cannot, you do not know it yet — say so and list what to fetch.
+8. Time: drop sub-tasks cheaper than the decision is worth. Do not lecture the human on an hourly rate.
 
-Two cofounders, "50/50, we'll figure out CEO later," one wants to stay anonymous.
+## Examples
 
-Accountability is broken (`leverage`). Cannot decide who is CEO → no (do not incorporate yet). Principal-agent: anonymous partner is structurally an agent. Invert: company dies when the first hard firing is needed and nobody owns it.
+**Load when** the human assigned a high-lock-in choice (partner, market, architecture, hire, invest).
+
+1. Human asks: incorporate 50/50 with a cofounder who wants to stay anonymous?  
+   Return: **no**. Cannot decide CEO. Anonymous = agent. Invert: dies at first firing.
+
+2. Human asks: two architectures, spreadsheet is 11–10.  
+   Return: if you cannot decide, **no** to the optional lock-in. If truly even, recommend **uphill**. Falsify: what production metric kills each option.
+
+3. Human asks: write the 150-call list.  
+   **Wrong skill.** Load `execute`. Judgment already said the GTM is worth doing.
+
+**Do not load** to coach identity or happiness. Identity check is on the *argument* only.
 
 ## Limits
 

@@ -1,11 +1,11 @@
 ---
 name: truth-types
-description: Classify claims into scientific, technical, political, economic, or cryptographic truth and pick a matching verification method. Use when diligence, fact-checking, media, crypto, or anyone treats peer review, consensus, or prestige as if it were replication.
+description: Classify claims as scientific, technical, political, economic, or cryptographic truth and pick a matching check. Use when diligencing, fact-checking, or reviewing a study, protocol, or press claim.
 ---
 
 # Types of truth
 
-From *The Anthology of Balaji*. Use on **investing**, **founding** (diligence), and **creating** (information products, protocols).
+Source: *The Anthology of Balaji*.
 
 ## Definitions
 
@@ -35,17 +35,21 @@ From *The Anthology of Balaji*. Use on **investing**, **founding** (diligence), 
 4. Incentives: who gains if this is false? What does lying cost?
 5. Output: what to trust, what to ignore, what to measure next.
 
-## Example (investing)
+## Examples
 
-Startup: "Our model is SOTA."
+**Load when** the human hands you a claim, paper, metric, or "studies show" line to check.
 
-- **Scientific** only if others can rerun the eval on a public harness.
-- **Political** if it means "investors believe us."
-- **Economic** if customers pay and retain.
-- **Cryptographic** if training data provenance is actually attested.
+1. Human asks: they say the model is SOTA.  
+   Return: split types. Scientific only with a public rerun; political if it means "investors believe us"; economic if customers pay; cryptographic if data is attested. Ask for the eval **table**.
 
-Ask for the eval table and an independent rerun before treating it as science.
+2. Human asks: this journalist says our churn is 40%.  
+   Return: political/repeater until you have the cohort table. Economic if it hits P&L. Do not argue the headline; get the source.
+
+3. Human asks: the chain says this warehouse temperature is on-chain, so climate policy is settled.  
+   Return: cryptographic = who signed what. Does not prove the sensor was calibrated. Compare oracles.
+
+**Do not load** to design a publication or go-direct stack (`media-system`).
 
 ## Limits
 
-Verification has cost. Democracies run on cheap political truth; that is a different game. Crypto does not make a lie in the real world true.
+Verification has cost. Democracies run on cheap political truth; that is a different game. Crypto does not make a lie in the real world true. For feeds, outlets, and building distribution, load `media-system`.

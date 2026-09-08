@@ -1,11 +1,11 @@
 ---
 name: leverage
-description: Apply Naval's wealth stack — specific knowledge, accountability, equity, and permissionless leverage (code and media) vs permissioned leverage (labor and capital). Use when designing a product, career, or company so outputs scale without linear time.
+description: Design a product, company, or role so outputs scale without linear hours — specific knowledge, equity, code/media vs labor. Use when productizing, structuring a business, or judging if someone is selling time.
 ---
 
 # Leverage
 
-From *The Almanack of Naval Ravikant* (Building Wealth). Use on **creating**, **founding**, and **investing** (is this person/product leveraged?).
+Source: *The Almanack of Naval Ravikant*.
 
 ## Definitions
 
@@ -45,24 +45,35 @@ From *The Almanack of Naval Ravikant* (Building Wealth). Use on **creating**, **
 3. Partners: intelligence, energy, **integrity**. No cynics (self-fulfilling).
 4. Learn to sell and to build. Both is unstoppable.
 5. No skill called "business." Study microeconomics, game theory, psychology, persuasion, math, computers.
-6. Set an aspirational hourly rate. Ignore or outsource below it.
-7. Become the best in the world at what you do; keep redefining the category until that is true.
-8. Optimize independence and output-tracking over headline pay.
+6. Set an aspirational hourly rate **for the work being designed** and cut tasks below it. Do not assign the human a lifestyle rate unasked.
+7. Category: be the best at the narrow thing this product is. Redefine the category in the spec until that is true.
+8. Optimize the design for independence and output-tracking over headline pay in the offer.
 
 ## Procedure
 
-1. Specific knowledge: what did they do as a kid that others noticed? If the answer is a generic job title, they do not have it yet.
-2. Current leverage mix. Is the product code/media or still selling hours?
-3. Accountability surface: whose name is on the risk?
-4. Equity path: ownership or wage.
-5. Productize: one asset that can run without more hours.
-6. For a company: is the worker leveraged and paid on output?
+Run this on the **product, company, or person the human asked you to design or judge**. Return the mix and the next artifact (spec, offer, pass).
 
-## Example (creating / founding)
+1. Specific knowledge: what proof of work exists (shipped thing, not a job title)?
+2. Leverage mix of the thing: code/media vs hours.
+3. Accountability: whose name is on the risk (the human's, not yours).
+4. Equity vs wage in the design.
+5. Productize: one asset that can run without more of the human's hours — specify it.
+6. If a company: are workers paid on output?
 
-Consultant selling 40 hours/week of "AI strategy."
+## Examples
 
-Not wealth. Path: productize one repeatable diagnostic (code + media), take equity in implementations, stop selling hours below the stated rate. Specific knowledge must be real (e.g. they shipped production evals in one industry), not "I use ChatGPT."
+**Load when** the human asks how to scale output without more hours, or whether a role/product is wages vs wealth.
+
+1. Human asks: turn this 40-hour "AI strategy" consultancy into something that scales.  
+   Return: one diagnostic as code+media, equity on implementations, stop selling hours as the product. Proof of work = shipped evals, not "I use ChatGPT."
+
+2. Human asks: should we hire 20 SDRs or productize the demo into a self-serve loop?  
+   Return: labor leverage vs code. Spec the loop. SDRs are permissioned and fragile.
+
+3. Human asks: 50/50 with an anonymous cofounder — go?  
+   **Wrong skill** for the lock-in. Load `judgment` (and accountability here). Verdict is still **no** until a name is on the risk.
+
+**Do not load** to pick a GTM channel (`distribution`) or to write a req (`hire-underpriced`).
 
 ## Limits
 

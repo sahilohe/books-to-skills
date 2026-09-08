@@ -1,11 +1,11 @@
 ---
 name: scale-path
-description: Sequence a new product as high unit-cost / low volume first, then cheaper and higher volume as the tech and factory mature. Use when planning a product line, hardware, a new category, or an investment in a prototype that has not survived volume.
+description: Sequence a new product as high unit-cost / low volume first, then cheaper at volume. Use when planning a line, hardware, or category, or diligencing a prototype that has not survived volume.
 ---
 
 # Scale path
 
-From *The Book of Elon* (Sequenced Strategy of Tesla; Give People More for Less). Use on **founding** and **creating** when the tech is new; **investing** when a deck shows a prototype and a mass-market TAM on the same slide.
+Source: *The Book of Elon*.
 
 ## Definitions
 
@@ -36,11 +36,20 @@ Drive to mass market as fast as technology matures. All free cash into R&D and t
 5. Budget: % to product vs theater (ads, extra enclosures, brand).
 6. Investing: if the thesis is mass TAM, demand a path through premium volume and a cash-recycling plan. Prototype ≠ TAM.
 
-## Example (founding / investing)
+## Examples
 
-"AI hardware for every home, $20B TAM, $199 device in 18 months."
+**Load when** the human plans a new-tech line, or a deck puts a prototype and a mass TAM on one slide.
 
-New tech + low volume. v1 should be a high-price tool for a user who feels the pain (studio, lab), not a $199 SKU. Master plan: $2k unit that works → learn factory → $500 → $199. If they have a beautiful mockup and no path through volume, you are looking at a prototype, which is common and not the hard thing.
+1. Human asks: AI hardware for every home, $20B TAM, $199 in 18 months.  
+   Return: v1 is a high-price tool for a painful user, not $199. Master plan: $2k that works → factory → $500 → $199. Mockup without volume path = prototype, not the hard thing.
+
+2. Human asks: our SaaS is $2k/year for one workflow; should v2 be $19 for everyone next quarter?  
+   Return: sports-car analog is allowed. Do not dump price before the general version is funded by the narrow one.
+
+3. Human asks: the line is stuck on one supplier.  
+   **Wrong skill** for the bottleneck. Load `factory-constraint`. This skill is the price/volume sequence.
+
+**Do not load** to name the current idea→profits rung (`ship-stack`).
 
 ## Limits
 

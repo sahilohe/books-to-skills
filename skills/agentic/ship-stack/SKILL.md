@@ -1,11 +1,11 @@
 ---
 name: ship-stack
-description: Move a founding idea through Balaji's stack — idea, mockup, prototype, program, product, business, profits — with SaaS-first engineering and a specific first-customer list. Use when building or shipping, not when still choosing the maze.
+description: Place a project on Balaji's stack (idea through profits), name the next rung, and plan SaaS-first / hire-last work. Use when building or shipping — not when the maze is still unchosen.
 ---
 
 # Ship the stack
 
-From *The Anthology of Balaji* (Founding: engineering, launching). Use on **creating** and **founding** once the idea maze is chosen. For the maze itself, load `idea-maze`.
+Source: *The Anthology of Balaji*.
 
 ## Definitions
 
@@ -39,17 +39,28 @@ A map from idea to cash. Many companies die between rungs because of time or an 
 
 ## Procedure
 
+Write the stack status. Do not inflate the rung.
+
 1. Name the current rung honestly.
-2. List the single exit criterion for the next rung.
-3. For engineering: what is bought vs built vs hired? Default buy.
-4. First-customer list (named). If you cannot name them, you are still in idea/mockup.
-5. Bounded commitment: this week's one path and the date you revisit.
+2. Single exit criterion for the next rung.
+3. Engineering: bought vs built vs hired? Default buy. Produce the buy list.
+4. First-customer list (named). If you cannot name them, they are still in idea/mockup — say so.
+5. Bounded commitment: this week's one path and the revisit date.
 
-## Example (creating)
+## Examples
 
-Team says "we're building a platform." They have a Figma and no named buyer.
+**Load when** the human asks what to build this week, what rung they are on, or how to ship v1.
 
-Rung = mockup. Next = prototype that completes one use case for one named office. Stack = Stripe + existing auth + a spreadsheet, not a custom billing engine. Hire = none. Launch plan = 15 named emails, not Product Hunt.
+1. Human asks: we have Figma, we say "platform" — what do we do?  
+   Return: rung = mockup. Next = prototype, one named office, one use case. Buy Stripe + auth + a sheet. Hire = none. 15 named emails.
+
+2. Human asks: we have tests and four use cases, no one has paid. Are we a product?  
+   Return: rung = program, not product. Exit = pricing + copy + one paid invoice. Do not hire.
+
+3. Human asks: is this idea any good vs Dentrix?  
+   **Wrong skill.** Load `idea-maze`. After the maze, come back here.
+
+**Do not load** for GTM channel choice (`distribution`) or weekly ranked outreach (`execute`).
 
 ## Limits
 

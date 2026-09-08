@@ -1,11 +1,11 @@
 ---
 name: tech-value
-description: Apply Balaji's technology theory of value — value comes from technology that changes physical metrics and expands options, not from labor hours. Use when evaluating a product, stack, company, or investment, or when someone prices work by hours instead of impact.
+description: Score a product, stack, company, or investment by whether technology moves a physical metric vs hours-of-labor pricing. Use when evaluating, pricing, or diligencing work priced in hours.
 ---
 
 # Technology theory of value
 
-From *The Anthology of Balaji*. Use on **creating**, **founding**, and **investing**.
+Source: *The Anthology of Balaji*.
 
 ## Definitions
 
@@ -35,15 +35,20 @@ From *The Anthology of Balaji*. Use on **creating**, **founding**, and **investi
 4. Unseen: what is blocked by old rules or missing tools? Is the "market size" the taxi market or the movement market?
 5. Verdict: **true tech** (metric + compounding + new options) / **optimization** (faster/cheaper same system) / **theater** (story, no metric).
 
-## Example (creating / investing)
+## Examples
 
-Claim: "Internal chatbot over existing docs."
+**Load when** the human asks if something is real technology, how to price it, or whether hours equal value.
 
-Usually **optimization** unless time-to-answer or error rate is measured and the retrieval/evals compound. Do not fund it as a "platform." Kill criteria: metric does not move in 30 days.
+1. Human asks: diligence this "internal chatbot over docs" / this "1% of China" TAM.  
+   Return: chatbot = **optimization** unless time-to-answer is measured (kill if no move in 30 days). TAM = refuse; size from invoices and the unseen job. Verdicts, not a lecture.
 
-Claim: "This is a $X billion TAM because 1% of China."
+2. Human asks: our agency bills 400 hours to "build the brand." What is it worth?  
+   Return: labor theory. Price the impact (pipeline, conversion, retained revenue) or call it wages. Do not invent a tech multiple.
 
-Refuse. Size from a real comparable (bottom-up invoices) and from the *unseen* job-to-be-done, not a percentage of a continent.
+3. Human asks: should we write a law requiring hotels to list availability, or build a marketplace with reviews?  
+   Return: prefer **write code** (feedback loop) over pass a law. Unseen market = rooms that were never inventoried.
+
+**Do not load** for "is this a company?" (`idea-maze`) or "delete this process" (`the-algorithm`).
 
 ## Limits
 

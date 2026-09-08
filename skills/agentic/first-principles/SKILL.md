@@ -1,11 +1,11 @@
 ---
 name: first-principles
-description: Reason from axioms and physics instead of analogy. Compute the magic-wand materials floor and Idiot Index, then think in limits and toward the platonic product. Use when a cost, architecture, or "that's how it's done" claim is blocking a product, company, or investment.
+description: Reason from axioms and physics on a cost, architecture, or 'always been expensive' claim. Compute magic-wand floor and Idiot Index. Use when unblocking a product, company, or investment thesis.
 ---
 
 # First principles
 
-From *The Book of Elon*. Use on **creating** and **founding**; **investing** when a cost curve is the thesis. Pair with `the-algorithm` after you know what *should* exist.
+Source: *The Book of Elon*.
 
 ## Definitions
 
@@ -37,11 +37,20 @@ At high volume, good manufacturing can drive cost toward materials plus licensed
 6. Platonic product in one sentence. Gap = the actual engineering problem.
 7. Verdict: **possible** (physics allows, index is fat) / **impossible** (laws) / **uninteresting** (floor already reached).
 
-## Example (creating)
+## Examples
 
-"Inference will always be too expensive for this product."
+**Load when** the human says it is expensive "because it always was," or asks if a design is physically possible.
 
-Analogy. BOM: GPU-hours, energy, memory. Magic wand = electricity + depreciated silicon. If index is 20×, the problem is batching, model size, or idle hardware — not physics. Limit: at 1M queries/day is it still expensive? If yes, change the design (smaller model, cache, local). If no, you have a volume problem, not a materials problem.
+1. Human asks: inference will always be too expensive for this product.  
+   Return: analogy. BOM + magic-wand floor. If Idiot Index is fat, the problem is batching/idle silicon, not physics. Limit at 1M queries/day.
+
+2. Human asks: rockets / batteries / a custom part costs 50× materials. Can we win?  
+   Return: index, worst 3 parts, platonic product. Possible vs uninteresting.
+
+3. Human asks: delete the dashboard and the queue.  
+   **Wrong skill** for order of deletion. Load `the-algorithm` after you know the thing should exist.
+
+**Do not load** for daily analogical choices (library vs library) or to skip drug/aviation regulation.
 
 ## Limits
 

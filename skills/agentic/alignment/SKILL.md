@@ -1,11 +1,11 @@
 ---
 name: alignment
-description: Quantify and design team incentives so each person wins more when others win. Detect off-diagonal politics, veto-bureaucracy, and scale-driven misalignment. Use when hiring, splitting equity, setting org structure, or when a company starts fighting itself.
+description: Map team incentives so each person wins more when others win. Flag off-diagonal politics, vetoes, burn vs bus number, parasites. Use when splitting equity, designing an org, or debugging infighting.
 ---
 
 # Alignment
 
-From *The Anthology of Balaji* (Founding: managing; Technology to create alignment). Use on **founding**. Pair with `org-speed` for communication paths and `judgment` for principal-agent.
+Source: *The Anthology of Balaji*.
 
 ## Definitions
 
@@ -19,11 +19,15 @@ From *The Anthology of Balaji* (Founding: managing; Technology to create alignme
 
 **Bureaucracy:** count of people who can veto you. Should be low. Zero vetoes = no team. Many people prefer bureaucracy to personal accountability.
 
-**Actual org chart:** who listens to whom (Slack, Twitter), not the PDF.
+**Actual org chart:** who listens to whom (Slack, Twitter), not the printed chart.
 
 **Founder role by size:** 1–10 player; 10–100 coach; 100–1,000 GM; 1,000+ commissioner.
 
 **Tour of duty:** pre-agreed deliverables, timeline, and departure — buffers employees from a merciless customer without fake permanence.
+
+**Burn rate → bus number:** early, the number is burn; every person must be indispensable. Later, the number is how many can get hit by a bus and the company still runs — every person must become *dispensable*. Unicellular → multicellular. You invest in impersonal structure or one quit crashes the firm.
+
+**Parasites:** interchangeability attracts people who want perks, high pay, low load, no personal accountability. Rational for them; it degenerates into entitlement. The cycle: bureaucracy stiffens → someone exits and founds → repeat. Who you hire (`hire-underpriced`) decides how fast this starts.
 
 **Quantifiable alignment (crypto, optional):** opt-in networks, signed rules, reputations you can check. Useful when you need alignment *across* strangers. Not a substitute for a 10-person team's equity split.
 
@@ -35,10 +39,22 @@ From *The Anthology of Balaji* (Founding: managing; Technology to create alignme
 4. Veto count on the last three decisions. Target: one owner.
 5. Hire/1:1: written **bull / base / bear** for 1 and 4 years. 2×2: manager expects of self, of them; they expect of self, of manager. Do this weekly in 1:1s when it matters.
 6. Size check: if adding headcount, what new defect (politics, veto, off-diagonal) appears? Prefer tools (`ship-stack`: hire last).
+7. Stage: still burn/indispensable, or bus-number/dispensable? If interchangeable already, look for parasites (high pay, low load, no outcome). Who you add is `hire-underpriced`.
 
-## Example (founding)
+## Examples
 
-Sales on bookings, product on "engineering excellence," support on ticket time. Sales wins by dumping bad-fit customers; product wins by saying no; support wins by closing tickets. Off-diagonal. Fix: one company metric (e.g. retained revenue) that all three share, plus eat-what-you-kill only on *external* expansion, not internal budget.
+**Load when** the human asks about equity, OKRs that fight, politics, or burn vs bus number — not who to hire.
+
+1. Human asks: sales on bookings, product on "excellence," support on ticket time. Why are we fighting?  
+   Return: off-diagonal map. Fix: one shared metric (retained revenue). Eat-what-you-kill only outside the firm.
+
+2. Human asks: we are 40 people, still treating everyone as indispensable, payroll is scary.  
+   Return: you are past burn/indispensable. Next number is **bus number**. Interchangeability will attract parasites. Name the owners.
+
+3. Human asks: write the req for a staff engineer.  
+   **Wrong skill.** Load `hire-underpriced`. Then set their incentive here.
+
+**Do not load** for chain-of-command / box-in-a-box in the product (`org-speed`).
 
 ## Limits
 

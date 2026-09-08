@@ -1,11 +1,11 @@
 ---
 name: idea-maze
-description: Map a founding idea as a maze of dead companies, live competitors, and wall-moving technologies — then fill the 6 Ps and size the market two ways. Use when starting, picking, or stress-testing a company, protocol, or product bet.
+description: Write the idea maze, 6 Ps, and two-way market size for a company, protocol, or product bet. Use when picking, stress-testing, or researching a founding idea.
 ---
 
 # Idea maze
 
-From *The Anthology of Balaji* (Founding: researching, ideating, validating). Use on **founding** first; also **investing** (is this a good idea?).
+Source: *The Anthology of Balaji*.
 
 ## Definitions
 
@@ -37,19 +37,31 @@ From *The Anthology of Balaji* (Founding: researching, ideating, validating). Us
 
 ## Procedure
 
+Produce the maze **in writing**. Inventing casualties is failure.
+
 1. Qualitative compass first (end-state of the world). Metrics do not choose direction; they measure progress along it.
-2. Draw the maze: ≥10 dead companies (which pit), ≥5 live competitors (which corridor), wall-moving tech, your path vs theirs **in writing**.
-3. Fill 6 Ps. If any P is hand-waving, stop.
+2. Draw the maze: ≥10 dead companies (which pit), ≥5 live competitors (which corridor), wall-moving tech, this path vs theirs.
+3. Fill 6 Ps. If any P is hand-waving, stop and say which P is missing.
 4. Size two ways. Link an invoice if you can. Employee math: ~$100k fully loaded; five people × three years is $1.5M before other costs — a $50M market will not get that check.
-5. Survey: paid 500-response if serious; else 10–20 customers on price/features. Rearrange the roadmap so v1 pays for v2.
-6. Vehicle: startup is one vehicle. Also open source, protocol, nonprofit, tinkering. Do not do a startup without a non-economic drive — there are lower-risk ways to earn.
+5. Survey plan: paid 500-response if serious; else 10–20 customers on price/features. Rearrange the roadmap so v1 pays for v2.
+6. Analog / scan / native: which rung is this industry on? The scan is often the opening (`tech-value`).
+7. Vehicle: startup is one vehicle. Also open source, protocol, nonprofit, tinkering. Flag if this is a critique with no product (`mission-filter`).
 
-## Example (founding)
+## Examples
 
-Idea: "AI CRM for dentists."
+**Load when** the human asks if an idea is a company, what the competitors were, or to write 6 Ps / market size.
 
-Maze must include: failed dental SaaS, Practice Management incumbents, why Dentrix/Open Dental won, what AI actually changes (admin hours? collections?), HIPAA as a wall, and why you are not a fast-follower from Twitter. 6 Ps: product is not "AI"; person is office manager; purpose is hours back; price vs existing PMS add-on; why now (models + APIs); prestige (you shipped in this niche).
+1. Human asks: is "AI CRM for dentists" a company?  
+   Return: written maze (dead dental SaaS, Dentrix/Open Dental, HIPAA wall, what metric AI moves). 6 Ps: not "AI"; office manager; hours back; price vs add-on; why now; prestige = shipped in niche.
+
+2. Human asks: seed memo on "on-chain identity for banks."  
+   Return: analog/scan/native (KYC is still scan). Dead regtech. Live incumbents. Two-way size from bank vendor invoices, not "1% of finance." Flag missing P.
+
+3. Human asks: we have a working checkout; what do we ship this week?  
+   **Wrong skill.** Maze is chosen. Load `ship-stack` / `execute`.
+
+**Do not load** to pick found vs fund vs join (`frontier-invest`) or to delete a process (`the-algorithm`).
 
 ## Limits
 
-If you lack industry history, list what to research. Do not invent casualties. Tuning out the Valley is often required for real innovation (Satoshi, early SpaceX).
+If you lack industry history, list what to research. Tuning out the Valley is often required for real innovation (Satoshi, early SpaceX).

@@ -1,15 +1,17 @@
 ---
 name: frontier-invest
-description: Evaluate investments and opportunities as open vs closed frontiers, bet on unpopular true facts, and invest in the future you want built. Use when writing an investment memo, choosing what to fund, found, or join, or when a TAM slide is doing the thinking.
+description: Write an investment or opportunity memo using open vs closed frontier, unpopular true facts, and found/fund/join. Use when deciding what to fund, found, or join, or when a TAM slide is doing the thinking.
 ---
 
 # Frontier investing
 
-From *The Anthology of Balaji* (Believing, Finding a Frontier, Invest in the future you want to see). Use on **investing**; also **founding** (where to play). Pair with `tech-value` and `truth-types`.
+Source: *The Anthology of Balaji*.
 
 ## Definitions
 
 **Frontier:** unoccupied valuable space. Open frontiers feel like abundance (new rules, few capable players). Closed frontiers feel like fighting over a pie (incumbents, credentials, regulation as moat). Technology and law open and close them in cycles.
+
+**Without a frontier it is zero-sum.** Scarce-resource fights consolidate into two factions until one wins; the winner splits again (French Revolution factions, US/USSR after WWII, US hyperpolarization after the Cold War). Almost a law of societal physics. An open frontier lets the aggrieved *leave* instead of overthrow. Turner: American frontier as fortune, national aspiration, and canvas for experiments. Close it and the ambitious become union organizers, revolutionaries, demagogues. Europe/North America: open ~1492–1890 vs closed-frontier total war ~1890–1991. Tech unlocks frontiers (navigation → new world when the old route was blocked). Recent digital frontier: internet, then crypto — non-obvious at every step (WWW/Google/iPhone/Facebook "will fail"). Four maps: land (~7.7B), internet (~3.2B), sea (millions), space (<10). Pioneers need space to experiment without forcing it on people who did not consent. Establishments that close the digital (or physical) frontier trap you in the steel cage.
 
 **Wealth creation:** technological creation of order — bricks vs a house; random bits vs working software. Voluntary trade is positive-sum even if money looks locally zero-sum (both parties wanted the swap). iPhones were not stolen from someone else's pile of phones.
 
@@ -34,18 +36,27 @@ From *The Anthology of Balaji* (Believing, Finding a Frontier, Invest in the fut
 
 ## Procedure
 
-1. Name the space. Open / closing / closed — with evidence (barriers, players, who writes the rules).
+1. Name the space. Open / closing / closed — with evidence (barriers, players, who writes the rules). If closed, expect factional zero-sum; if open, say *which* map (land, net, sea, space) and who can exit instead of fight.
 2. Unpopular part of the thesis in one sentence. If there is no unpopular part, it is probably priced.
 3. 10× dimension vs theater (`tech-value`).
 4. Founder: intelligence is easier to see than diligence. Look for people who finish.
 5. Kill criteria and position: pass / small / concentrated.
 6. Role: found, fund, or join.
 
-## Example (investing)
+## Examples
 
-Deck: "AI for legal, $50B TAM."
+**Load when** the human asks what to fund, found, or join, or when a TAM slide is the whole thesis.
 
-Frontier: legal research is not unoccupied; incumbents + firms + Westlaw. Unpopular truth needed: e.g. "solo lawyers will pay for drafting, not search" with invoices. 10×: hours per motion, not "AI." If the founder cannot diagram dead legal-tech companies (`idea-maze`), pass.
+1. Human asks: memo on "AI for legal, $50B TAM."  
+   Return: frontier closed (Westlaw, firms). Need unpopular truth + invoices. 10× = hours per motion. No maze of dead legal-tech → pass.
+
+2. Human asks: should I join this climate-hardware seed or start my own?  
+   Return: found/fund/join. If the 10× is manufacturing and they already have the maze, **join**. If the space is open and they cannot draw casualties, **found**. "Just money" → allowed to pass.
+
+3. Human asks: cut this CI job; it is slow.  
+   **Wrong skill.** Load `factory-constraint` / `the-algorithm`.
+
+**Do not load** to write 6 Ps (`idea-maze`) or to score if the tech is theater (`tech-value` first, then this).
 
 ## Limits
 
