@@ -1,10 +1,12 @@
-# Source books — do not publish. Link official sites instead.
-book_pdfs/
-
-# Local / OS
 .DS_Store
 .tmp/
 .venv/
 __pycache__/
 *.pyc
 .agents
+AGENTS.md
+.cursorignore
+*.pdf
+*.epub
+*.mobi
+book_pdfs/
